@@ -78,3 +78,17 @@ body {
 .btn:focus {
   box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
 }
+
+@media (max-width: 400px) {
+  .head {
+    font-size: 20px;
+  }
+  .input {
+    width: 110px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    padding: 0.5rem;
+  }
+}
